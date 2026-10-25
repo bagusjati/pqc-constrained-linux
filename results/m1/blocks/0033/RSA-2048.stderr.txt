@@ -1,0 +1,1 @@
+{"algorithm": "RSA-2048", "correctness_failures": 0, "public_key_bytes": 294, "artifact_bytes": 256} [('keygen', 348.8627, 20), ('sign', 1.4164, 100), ('verify', 0.0697, 100)] {'nr_periods': 131, 'nr_throttled': 131, 'throttled_usec': 9830468, 'usage_usec': 3269429}

@@ -1,0 +1,1 @@
+{"algorithm": "ML-DSA-44", "correctness_failures": 0, "public_key_bytes": 1312, "artifact_bytes": 2420} [('keygen', 0.6204, 100), ('sign', 1.3093, 100), ('verify', 0.6472, 100)] {'nr_periods': 38, 'nr_throttled': 38, 'throttled_usec': 2847795, 'usage_usec': 946071}

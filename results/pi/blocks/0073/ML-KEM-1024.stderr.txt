@@ -1,0 +1,1 @@
+{"algorithm": "ML-KEM-1024", "correctness_failures": 0, "public_key_bytes": 1568, "artifact_bytes": 1568} [('keygen', 0.4626, 100), ('encaps', 0.5561, 100), ('decaps', 0.5165, 100)] {'nr_periods': 35, 'nr_throttled': 35, 'throttled_usec': 2618738, 'usage_usec': 853683}

@@ -1,0 +1,11 @@
+algorithm runs: 45, operation rows: 135
+  T1: 15 algorithms, reps per algorithm min=1 max=1
+  T2: 15 algorithms, reps per algorithm min=1 max=1
+  T3: 15 algorithms, reps per algorithm min=1 max=1
+OOM-killed runs: 0 []
+correctness failures: 0 []
+  throttling T1: nr_throttled per run median=0 max=501
+  throttling T2: nr_throttled per run median=3 max=2941
+  throttling T3: nr_throttled per run median=6 max=10215
+operations measured in slow mode (20 iterations): 13 cells -> [('T1', 'SLH-DSA-SHA2-128s', 'sign'), ('T1', 'SLH-DSA-SHA2-192s', 'sign'), ('T1', 'SLH-DSA-SHA2-256s', 'sign'), ('T2', 'SLH-DSA-SHA2-128s', 'sign'), ('T2', 'SLH-DSA-SHA2-192s', 'sign'), ('T2', 'SLH-DSA-SHA2-256s', 'sign'), ('T3', 'RSA-2048', 'keygen'), ('T3', 'SLH-DSA-SHA2-128s', 'keygen'), ('T3', 'SLH-DSA-SHA2-128s', 'sign'), ('T3', 'SLH-DSA-SHA2-192s', 'keygen'), ('T3', 'SLH-DSA-SHA2-192s', 'sign'), ('T3', 'SLH-DSA-SHA2-256s', 'keygen')]
+cgroup memory peak MB: min=16.891 max=19.32

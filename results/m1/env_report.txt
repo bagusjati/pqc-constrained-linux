@@ -1,0 +1,80 @@
+=== date (UTC)
+Tue Oct  6 05:02:30 UTC 2026
+=== uname
+Darwin MacBook-Air-ADMIN.local 25.6.0 Darwin Kernel Version 25.6.0: Sat Jul 11 15:24:35 PDT 2026; root:xnu-12377.161.13~4/RELEASE_ARM64_T8103 arm64
+=== os-release
+ProductName:		macOS
+ProductVersion:		26.6.1
+BuildVersion:		25G76
+=== cpu
+Apple M1
+8
+=== memory
+8589934592
+=== docker version
+Client:
+ Version:           29.8.1
+ API version:       1.56
+ Go version:        go1.26.8
+ Git commit:        4a63305
+ Built:             Tue Sep 15 16:24:48 2026
+ OS/Arch:           darwin/arm64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.93.0 (240920)
+ Engine:
+  Version:          29.8.1
+  API version:      1.56 (minimum version 1.40)
+  Go version:       go1.26.8
+  Git commit:       464cd50
+  Built:            Tue Sep 15 16:25:04 2026
+  OS/Arch:          linux/arm64
+  Experimental:     false
+ containerd:
+  Version:          v2.3.5
+  GitCommit:        1294c24a7da8e5a793ed378161673abe94118892
+ runc:
+  Version:          1.5.1
+  GitCommit:        v1.5.1-0-g8f2685a4
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+=== docker info (cgroup, runtime, resources)
+ Server Version: 29.8.1
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+  cgroupns
+ Kernel Version: 7.0.14-linuxkit
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: aarch64
+ CPUs: 8
+ Total Memory: 3.825GiB
+=== docker info warnings
+=== image
+Id=sha256:aad5f6af867ed89a3abafba5a8d078b66bc13780218b299a5892ee00b2097b7a Created=2026-10-05T02:02:13.926931381Z Arch=arm64 Os=linux
+=== inside image: liboqs commit, pip freeze, python
+5a1a854b0dc9f2141bdc771c555ee60c37950183
+cffi==2.1.1
+cryptography==46.0.7
+liboqs-python==0.16.0.1
+pycparser==3.0
+Python 3.12.15
+liboqs-python faulthandler is disabled
+liboqs 0.16.0 liboqs-python 0.16.0.1
+=== inside container: cgroup files visible at a 0.25 core / 64 MB quota
+25000 100000
+67108864
+usage_usec 14999
+user_usec 6999
+system_usec 7999
+nice_usec 0
+nr_periods 1
+nr_throttled 0
+throttled_usec 0
+nr_bursts 0
+burst_usec 0
+7241728
+=== other load on the host (top 5 by CPU)

@@ -1,0 +1,1 @@
+{"algorithm": "ECDH-X25519", "correctness_failures": 0, "public_key_bytes": 32, "artifact_bytes": 32} [('keygen', 0.134, 100), ('encaps', 0.4507, 100), ('decaps', 0.3275, 100)] {'nr_periods': 22, 'nr_throttled': 22, 'throttled_usec': 1648574, 'usage_usec': 530979}

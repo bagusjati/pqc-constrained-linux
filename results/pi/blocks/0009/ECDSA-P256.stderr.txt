@@ -1,0 +1,1 @@
+{"algorithm": "ECDSA-P256", "correctness_failures": 0, "public_key_bytes": 91, "artifact_bytes": 71} [('keygen', 0.1836, 100), ('sign', 0.2156, 100), ('verify', 0.4409, 100)] {'nr_periods': 10, 'nr_throttled': 10, 'throttled_usec': 498162, 'usage_usec': 476135}

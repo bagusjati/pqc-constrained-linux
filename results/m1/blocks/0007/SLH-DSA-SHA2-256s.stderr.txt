@@ -1,0 +1,1 @@
+{"algorithm": "SLH-DSA-SHA2-256s", "correctness_failures": 0, "public_key_bytes": 64, "artifact_bytes": 29792} [('keygen', 64.3955, 100), ('sign', 840.2686, 20), ('verify', 1.1487, 100)] {'nr_periods': 1080, 'nr_throttled': 468, 'throttled_usec': 1122319, 'usage_usec': 106897363}

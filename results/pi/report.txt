@@ -1,0 +1,23 @@
+algorithm runs: 1200, operation rows: 3600
+  A1: 15 algorithms, reps per algorithm min=10 max=10
+  A2: 15 algorithms, reps per algorithm min=10 max=10
+  A3: 15 algorithms, reps per algorithm min=10 max=10
+  A4: 15 algorithms, reps per algorithm min=10 max=10
+  F1: 15 algorithms, reps per algorithm min=5 max=5
+  F2: 15 algorithms, reps per algorithm min=5 max=5
+  T1: 15 algorithms, reps per algorithm min=10 max=10
+  T2: 15 algorithms, reps per algorithm min=10 max=10
+  T3: 15 algorithms, reps per algorithm min=10 max=10
+OOM-killed runs: 0 []
+correctness failures: 0 []
+  throttling A1: nr_throttled per run median=11.0 max=5877
+  throttling A2: nr_throttled per run median=22.0 max=11784
+  throttling A3: nr_throttled per run median=0.0 max=28
+  throttling A4: nr_throttled per run median=0.0 max=29
+  throttling F1: nr_throttled per run median=0 max=117
+  throttling F2: nr_throttled per run median=51 max=29459
+  throttling T1: nr_throttled per run median=0.0 max=23
+  throttling T2: nr_throttled per run median=12.0 max=5873
+  throttling T3: nr_throttled per run median=23.0 max=11748
+operations measured in slow mode (20 iterations): 56 cells -> [('A1', 'RSA-2048', 'keygen'), ('A1', 'SLH-DSA-SHA2-128s', 'keygen'), ('A1', 'SLH-DSA-SHA2-128s', 'sign'), ('A1', 'SLH-DSA-SHA2-192s', 'keygen'), ('A1', 'SLH-DSA-SHA2-192s', 'sign'), ('A1', 'SLH-DSA-SHA2-256s', 'keygen'), ('A1', 'SLH-DSA-SHA2-256s', 'sign'), ('A2', 'RSA-2048', 'keygen'), ('A2', 'SLH-DSA-SHA2-128s', 'keygen'), ('A2', 'SLH-DSA-SHA2-128s', 'sign'), ('A2', 'SLH-DSA-SHA2-192s', 'keygen'), ('A2', 'SLH-DSA-SHA2-192s', 'sign')]
+cgroup memory peak MB: min=15.996 max=17.922

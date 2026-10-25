@@ -1,0 +1,1 @@
+{"algorithm": "BIKE-L1", "correctness_failures": 0, "public_key_bytes": 1541, "artifact_bytes": 1573} [('keygen', 10.3411, 100), ('encaps', 0.5439, 100), ('decaps', 9.2467, 100)] {'nr_periods': 23, 'nr_throttled': 0, 'throttled_usec': 0, 'usage_usec': 2364070}

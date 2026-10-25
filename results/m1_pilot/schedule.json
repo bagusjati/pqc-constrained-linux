@@ -1,0 +1,165 @@
+{
+ "host": "m1",
+ "master_seed": 20260928,
+ "generated_utc": "2026-10-05T02:03:15Z",
+ "pilot": true,
+ "phases": [
+  "main"
+ ],
+ "reps": {
+  "main": 1
+ },
+ "n_blocks": 3,
+ "n_runs": 45,
+ "configs": {
+  "T1": {
+   "cpus": 1.0,
+   "mem_mb": 512,
+   "clock": "performance",
+   "phase": "main",
+   "label": "Unconstrained"
+  },
+  "T2": {
+   "cpus": 0.5,
+   "mem_mb": 128,
+   "clock": "performance",
+   "phase": "main",
+   "label": "IoT-Moderate"
+  },
+  "T3": {
+   "cpus": 0.25,
+   "mem_mb": 64,
+   "clock": "performance",
+   "phase": "main",
+   "label": "IoT-Extreme"
+  },
+  "A1": {
+   "cpus": 0.5,
+   "mem_mb": 512,
+   "clock": "performance",
+   "phase": "ablation",
+   "label": "CPU 0.50, memory fixed 512"
+  },
+  "A2": {
+   "cpus": 0.25,
+   "mem_mb": 512,
+   "clock": "performance",
+   "phase": "ablation",
+   "label": "CPU 0.25, memory fixed 512"
+  },
+  "A3": {
+   "cpus": 1.0,
+   "mem_mb": 128,
+   "clock": "performance",
+   "phase": "ablation",
+   "label": "memory 128, CPU fixed 1.00"
+  },
+  "A4": {
+   "cpus": 1.0,
+   "mem_mb": 64,
+   "clock": "performance",
+   "phase": "ablation",
+   "label": "memory 64, CPU fixed 1.00"
+  },
+  "F1": {
+   "cpus": 1.0,
+   "mem_mb": 512,
+   "clock": "powersave",
+   "phase": "lowclock",
+   "label": "Unconstrained quota, minimum CPU clock"
+  },
+  "F2": {
+   "cpus": 0.25,
+   "mem_mb": 64,
+   "clock": "powersave",
+   "phase": "lowclock",
+   "label": "IoT-Extreme quota, minimum CPU clock"
+  }
+ },
+ "blocks": [
+  {
+   "block_index": 0,
+   "phase": "main",
+   "config": "T1",
+   "label": "Unconstrained",
+   "cpus": 1.0,
+   "mem_mb": 512,
+   "clock": "performance",
+   "rep": 1,
+   "seed": "20260928-m1-main-rep1-T1-algos",
+   "algorithms": [
+    "ECDH-X25519",
+    "ML-KEM-768",
+    "SLH-DSA-SHA2-192s",
+    "SLH-DSA-SHA2-128s",
+    "ML-DSA-87",
+    "ML-DSA-65",
+    "ML-DSA-44",
+    "ML-KEM-512",
+    "BIKE-L1",
+    "RSA-2048",
+    "ML-KEM-1024",
+    "HQC-128",
+    "SLH-DSA-SHA2-256s",
+    "ECDSA-P256",
+    "FrodoKEM-640"
+   ]
+  },
+  {
+   "block_index": 1,
+   "phase": "main",
+   "config": "T2",
+   "label": "IoT-Moderate",
+   "cpus": 0.5,
+   "mem_mb": 128,
+   "clock": "performance",
+   "rep": 1,
+   "seed": "20260928-m1-main-rep1-T2-algos",
+   "algorithms": [
+    "ECDH-X25519",
+    "ML-KEM-768",
+    "SLH-DSA-SHA2-128s",
+    "SLH-DSA-SHA2-192s",
+    "FrodoKEM-640",
+    "ML-KEM-512",
+    "RSA-2048",
+    "BIKE-L1",
+    "ML-DSA-87",
+    "HQC-128",
+    "ML-DSA-44",
+    "SLH-DSA-SHA2-256s",
+    "ECDSA-P256",
+    "ML-KEM-1024",
+    "ML-DSA-65"
+   ]
+  },
+  {
+   "block_index": 2,
+   "phase": "main",
+   "config": "T3",
+   "label": "IoT-Extreme",
+   "cpus": 0.25,
+   "mem_mb": 64,
+   "clock": "performance",
+   "rep": 1,
+   "seed": "20260928-m1-main-rep1-T3-algos",
+   "algorithms": [
+    "ML-KEM-1024",
+    "ML-KEM-512",
+    "RSA-2048",
+    "ECDH-X25519",
+    "ML-DSA-44",
+    "FrodoKEM-640",
+    "SLH-DSA-SHA2-128s",
+    "HQC-128",
+    "ML-DSA-87",
+    "SLH-DSA-SHA2-192s",
+    "SLH-DSA-SHA2-256s",
+    "ML-KEM-768",
+    "BIKE-L1",
+    "ML-DSA-65",
+    "ECDSA-P256"
+   ]
+  }
+ ]
+}

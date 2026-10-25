@@ -1,0 +1,1 @@
+{"algorithm": "HQC-128", "correctness_failures": 0, "public_key_bytes": 2241, "artifact_bytes": 4433} [('keygen', 0.8003, 100), ('encaps', 1.784, 100), ('decaps', 2.916, 100)] {'nr_periods': 17, 'nr_throttled': 17, 'throttled_usec': 851518, 'usage_usec': 879462}

@@ -1,0 +1,4 @@
+block_index,config,rep,memory_peak_mb,memory_current_mb
+0,T2,1,43.195,43.195
+1,T1,1,16.312,14.723
+2,T3,1,16.211,14.895

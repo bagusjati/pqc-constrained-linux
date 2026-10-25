@@ -1,0 +1,1 @@
+{"algorithm": "FrodoKEM-640", "correctness_failures": 0, "public_key_bytes": 9616, "artifact_bytes": 9752} [('keygen', 92.6645, 100), ('encaps', 93.3999, 100), ('decaps', 93.2896, 100)] {'nr_periods': 341, 'nr_throttled': 341, 'throttled_usec': 25571291, 'usage_usec': 8507027}

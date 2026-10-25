@@ -1,0 +1,1 @@
+{"algorithm": "ML-DSA-87", "correctness_failures": 0, "public_key_bytes": 2592, "artifact_bytes": 4627} [('keygen', 0.5733, 100), ('sign', 0.9717, 100), ('verify', 0.5673, 100)] {'nr_periods': 11, 'nr_throttled': 11, 'throttled_usec': 544895, 'usage_usec': 571017}
