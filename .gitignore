@@ -1,0 +1,6 @@
+archives/
+schedules/*_pilot.json
+*.zip
+*.tar.gz
+__pycache__/
+.DS_Store
